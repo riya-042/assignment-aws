@@ -1,0 +1,43 @@
+
+#!/bin/bash
+apt-get update
+apt-get install -y nginx
+systemctl start nginx
+systemctl enable nginx
+apt-get install -y git
+curl -SL https://deb.nodesource.com/setup_16.x|sudo -E bash -
+apt-get install -y nodejs
+git clone http://github.com/sudip7407/Repo1.git
+cd Repo1
+npm install
+node index.js
+
+
+
+
+        git init
+	git add .
+	git commit -m "first commit"
+	git branch -M master
+	git remote add origin https://github.com/riya-042/cse42.git
+	git push -u origin master
+	git clone https://github.com/riya-042/cse42.git
+	ls
+	cd cse42
+	git pull origin master
+
+
+
+pwd
+sudo apt -get update
+sudo apt -get upgrade
+sudo apt-get install nginx 
+curl -SL https:// deb.nodesource.com/setup_18.x|sudo -E bash -
+sudo apt install nodejs
+git clone https://github.com/riya-042/rr.git
+cd rr
+ls
+npm install
+node index.js
+
+
